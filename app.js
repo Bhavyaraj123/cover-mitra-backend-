@@ -17,7 +17,7 @@ const app = express();
 
 // ✅ CORS setup
 const allowedOrigins = [
-  'https://cover-mitra.vercel.app/',
+  'http://localhost:5173',
   'https://cover-mitra-backend.vercel.app/',
 ];
 const corsOptions = {
